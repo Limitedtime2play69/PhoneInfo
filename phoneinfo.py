@@ -4,8 +4,8 @@ def phone_number_info(phone_number, country_code=None):
     url = "http://apilayer.net/api/validate"
     params = {
         "access_key": "YOUR-API-KEY-HERE",
-        "number": phone_number,
-        "country_code": country_code
+        "4703099613": phone_number,
+        "+1": country_code
     }
     response = requests.get(url, params=params)
     data = response.json()
